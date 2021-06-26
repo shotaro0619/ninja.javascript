@@ -54,9 +54,56 @@
 
 // });
 
-$(function () {
-  $('.target').one('click', function () {
-    $('.target').prepend('<p>ダミーテキストA</p>');
-  });
+// $(function () {
+//   $('.target').one('click', function () {
+//     $('.target').prepend('<p>ダミーテキストA</p>');
+//   });
 
+// });
+
+// $(function(){
+//   $('.target').append(' <p>ダミーテキストF</p>');
+// })
+
+// $(function() {
+//   $('.target').after(
+//     '<p>ダミーテキストF</p>' +
+//     '<p>ダミーテキストG</p>' +
+//     '<p>ダミーテキストH</p>' +
+//     '<p>ダミーテキストI</p>' +
+//     '<p>ダミーテキストJ</p>' 
+//   );
+
+// })
+
+// $(function () {
+//   $('.trigger').click(function () {
+//     $('.target').show();
+//   });
+// })
+
+// $(function () {
+//   $('.trigger').click(function () {
+//     $('.target').hide();
+//   });
+// });
+
+// $(function () {
+//   $('.trigger').click(function () {
+//     $('.target').fadeIn("");
+//   });
+// })
+
+// $(function () {
+//   $('.trigger').click(function () {
+//     $('.target').fadeOut(3000);
+//   });
+// })
+
+// $(function(){
+//   alert("jqueryを使っているよ！");
+// });
+
+$(function () {
+  alert('横幅は' + $('.box').width() + 'です！');
 });

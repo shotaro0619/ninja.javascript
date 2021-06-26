@@ -1,2 +1,7 @@
 *{margin: 0;padding: 0;list-style: none;box-sizing: border-box;}
 
+.box {
+  width: 310px;
+  height: 310px;
+  background-color: red;
+}
