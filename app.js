@@ -104,6 +104,23 @@
 //   alert("jqueryを使っているよ！");
 // });
 
+// $(function () {
+//   alert('横幅は' + $('.box').width() + 'です！');
+// });
+
+// $(function(){
+//   $('#color-change').on("change", function(){
+//     let select_color = $(this).val();
+//     $('.title').css('color', select_color);
+//   });
+// });
+
 $(function () {
-  alert('横幅は' + $('.box').width() + 'です！');
+  let max_li = 0;
+  $('li').each(function (index, el) {
+    if (max_li < $(el).height()) {
+      max_li = $(el).height();
+    }
+  });
+  $('li').height(max_li);
 });
